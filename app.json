@@ -33,7 +33,9 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-web-browser",
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true

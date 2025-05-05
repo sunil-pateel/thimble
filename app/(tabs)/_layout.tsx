@@ -12,21 +12,21 @@ export default function TabLayout() {
             tabBarInactiveTintColor: Colors.lightBackground,
             tabBarActiveBackgroundColor: Colors.darkBackground,
             tabBarInactiveBackgroundColor: Colors.darkBackground,
+            tabBarStyle: {borderTopWidth:0}
         }}>
             <Tabs.Screen
                 name="index"
                 options={{
                     title: 'Home',
                     tabBarIcon: ({ color }: { color: any }) => <FontAwesome size={28} name="home" color={color} />,
-                    
                     headerShown: false,
                 }}
             />
             <Tabs.Screen
-                name="settings"
+                name="walkthrough"
                 options={{
                     title: 'Walkthrough',
-                    tabBarIcon: ({ color }: { color: any }) => <SewingNeedleIcon color={color}/>,
+                    tabBarIcon: ({ color }: { color: any }) => <SewingNeedleIcon color={color} />,
                     headerShown: false,
                 }}
             />

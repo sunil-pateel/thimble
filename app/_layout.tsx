@@ -2,7 +2,6 @@ import { Stack } from "expo-router";
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from "react";
-import { View } from "react-native";
 import { Profile, SettingsCog } from "./components/header";
 import { Colors } from "./constants/colors";
 import { StatusBar } from "expo-status-bar";
@@ -28,7 +27,7 @@ export default function Layout() {
         <>
             <StatusBar
                 style="light"
-                backgroundColor={Colors.darkBackground}
+                backgroundColor={Colors.lightBackground}
                 translucent={false} // Ensures Android coverage
             />
             <Stack screenOptions={{

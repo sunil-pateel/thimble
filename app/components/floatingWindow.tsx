@@ -1,6 +1,8 @@
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { Alert, Button, Pressable, StyleSheet, Text, View } from "react-native";
 import { Colors } from "../constants/colors";
 import { FontAwesome } from "@expo/vector-icons";
+import { useCallback, useState } from "react";
+import YoutubePlayer from "react-native-youtube-iframe";
 
 export default function FloatingWindow({ header, body, onPress }: { header: string, body: string, onPress: () => void }) {
     return (
@@ -37,6 +39,7 @@ const floatingWindowStyle = StyleSheet.create({
         color: Colors.text,
         fontFamily: "CrimsonText-Bold",
         fontSize: 15,
+        height: "75%"
     },
     arrow: {
         color: Colors.text,

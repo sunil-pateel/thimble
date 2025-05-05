@@ -17,8 +17,8 @@ export default function Index() {
                 justifyContent: 'flex-start',
                 alignItems: 'center',
             }}>
-                <FloatingWindow header="Guided Repair" body={guidedRepairBody} onPress={() => { router.replace("/settings"); }} />
-                <FloatingWindow header="Repair Database" body={guidedRepairBody} onPress={() => { router.replace("/settings"); }} />
+                <FloatingWindow header="Guided Repair Walkthrough" body={guidedRepairBody} onPress={() => { router.replace("/walkthrough"); }} />
+                <FloatingWindow header="Repair Database" body={guidedRepairBody} onPress={() => { router.replace("/repairDatabase"); }} />
             </View>
         </View>
     );
