@@ -20,7 +20,7 @@ export default function Tab() {
             }}>
                 <Text style={styles.header}>Jean Repair</Text>
                 <RepairWindow title="Tears in Jeans" url="w82UNSIYW_c" onPress={() => { }} />
-                <RepairWindow title="Replace Zipper" url="a_v4WMSvKdg" onPress={() => { }} />
+                <RepairWindow title="Zipper" url="a_v4WMSvKdg" onPress={() => { }} />
                 <RepairWindow title="Ripped Pocket" url="cKezloC_NOo" onPress={() => { }} />
             </View>
         </ScrollView>

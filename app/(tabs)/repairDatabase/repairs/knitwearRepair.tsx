@@ -19,9 +19,10 @@ export default function Tab() {
                 alignItems: 'center',
             }}>
                 <Text style={styles.header}>Knitwear Repair</Text>
-                <RepairWindow title="" url="w82UNSIYW_c" onPress={() => { }} />
-                <RepairWindow title="Replace Zipper" url="a_v4WMSvKdg" onPress={() => { }} />
-                <RepairWindow title="Ripped Pocket" url="cKezloC_NOo" onPress={() => { }} />
+                <RepairWindow title="Small Holes" url="AVVawL1LD6Y" onPress={() => { }} />
+                <RepairWindow title="Collars" url="hyyf6LM5Ulg" onPress={() => { }} />
+                <RepairWindow title="Socks" url="uhN-XLV9SiQ" onPress={() => { }} />
+                <RepairWindow title="Patching" url="kV5S46gX_9M" onPress={() => { }} />
             </View>
         </ScrollView>
     );

@@ -19,9 +19,8 @@ export default function Tab() {
                 alignItems: 'center',
             }}>
                 <Text style={styles.header}>Sportswear Repair</Text>
-                <RepairWindow title="" url="w82UNSIYW_c" onPress={() => { }} />
-                <RepairWindow title="Replace Zipper" url="a_v4WMSvKdg" onPress={() => { }} />
-                <RepairWindow title="Ripped Pocket" url="cKezloC_NOo" onPress={() => { }} />
+                <RepairWindow title="Leggings" url="w82UNSIYW_c" onPress={() => { }} />
+                <RepairWindow title="Lycra" url="xUXuFatFQZE" onPress={() => { }} />
             </View>
         </ScrollView>
     );

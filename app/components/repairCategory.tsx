@@ -13,7 +13,7 @@ const walkthroughButtonStyle = StyleSheet.create({
     container: {
         borderRadius: 50,
         width: '85%',
-        height: '20%',
+        height: '12%',
         position: 'relative',
         margin: '2%',
         backgroundColor: Colors.textBackground,
