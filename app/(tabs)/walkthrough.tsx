@@ -17,7 +17,7 @@ export default function Tab() {
                 justifyContent: 'flex-start',
                 alignItems: 'center',
             }}>
-            <Text style={styles.question}>Which Describes You Best?</Text>
+            <Text style={styles.question}>What is your issue?</Text>
             <WalkthroughButton text='Loose Button' onPress={() => {}}/> 
             <WalkthroughButton text='Rip or Tear' onPress={() => {}}/> 
             <WalkthroughButton text='Open Hole' onPress={() => {}}/> 

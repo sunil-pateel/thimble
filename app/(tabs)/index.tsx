@@ -17,11 +17,12 @@ export default function Index() {
                 justifyContent: 'flex-start',
                 alignItems: 'center',
             }}>
-                <FloatingWindow header="Guided Repair Walkthrough" body={guidedRepairBody} onPress={() => { router.replace("/walkthrough"); }} />
-                <FloatingWindow header="Repair Database" body={guidedRepairBody} onPress={() => { router.replace("/repairDatabase"); }} />
+                <FloatingWindow header="Guided Walkthrough" body={guidedRepairBody} onPress={() => { router.replace("/walkthrough"); }} />
+                <FloatingWindow header="Repair Database" body={repairDatabaseBody} onPress={() => { router.replace("/repairDatabase"); }} />
             </View>
         </View>
     );
 }
 
-const guidedRepairBody = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus  feugiat, leo ut eleifend blandit, elit libero feugiat mi, nec accumsan  nisi lorem nec purus. Aliquam erat volutpat. Aenean venenatis massa in  metus aliquet, ac scelerisque diam consequat. Morbi sollicitudin, quam";
+const guidedRepairBody = "Guided repair tool that asks you a series of questions to determine what kind of repair you need. Currently a work in progress. TBD";
+const repairDatabaseBody = "Database of repair information with loads of tutorials and videos to help you with your repair. Video functionality still a bit wonky so please be kind :).";

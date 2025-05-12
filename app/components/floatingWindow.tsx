@@ -24,6 +24,7 @@ const floatingWindowStyle = StyleSheet.create({
         paddingLeft: '5%',
         paddingRight: '5%',
         paddingTop: '3%',
+        paddingBottom: "5%",
         margin: '5%',
         backgroundColor: Colors.textBackground,
         color: Colors.text
@@ -31,7 +32,7 @@ const floatingWindowStyle = StyleSheet.create({
     header: {
         color: Colors.text,
         fontFamily: "CrimsonText-Bold",
-        fontSize: 25,
+        fontSize: 30,
         textDecorationLine: 'underline',
 
     },

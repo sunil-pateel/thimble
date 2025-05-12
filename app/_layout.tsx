@@ -23,12 +23,13 @@ export default function Layout() {
     if (!loaded && !error) {
         return null;
     }
+
     return (
         <>
             <StatusBar
                 style="light"
-                backgroundColor={Colors.lightBackground}
-                translucent={false} // Ensures Android coverage
+                backgroundColor={"#00000000"}
+                translucent={true} // Ensures Android coverage
             />
             <Stack screenOptions={{
                 contentStyle: {
@@ -49,6 +50,8 @@ export default function Layout() {
                         fontSize: 50,
                         color: Colors.textBackground,
                     },
+                    navigationBarHidden: true,
+                    statusBarHidden: true,
                     headerShown: true
                 }} />
             </Stack>
